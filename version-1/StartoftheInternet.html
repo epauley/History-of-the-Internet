@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<title>The Internet</title>
+		<link rel="stylesheet" href="themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="jquery.ui.menu">
+		<link rel="stylesheet" href="jquery.ui.dialog">
+		<link rel="stylesheet" href="jquery.ui.tabs">
+		<link rel="stylesheet" href="main.css">
+		<style>
+		.ui-menu {
+		width: 200px;
+		}
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="header">
+		<h1>Start of the Internet</h1>
+		</div>
+		
+		<div class="container">	
+			<div class="row1">
+				<div class="col">
+					<ul id="menu">
+						<li><a href="index.html"/>The Internet</a></li>
+						<li><a href="StartoftheInternet.html">Start of the Internet</a>
+							<ul>
+							<li><a href="StartoftheInternet.html#tabs-1">DARPA</a></li>
+							<li><a href="StartoftheInternet.html#tabs-2">Start of ARPANET</a></li>
+							<li><a href="StartoftheInternet.html#tabs-2">ARPANET Goes Live</a></li>
+							<li><a href="StartoftheInternet.html#tabs-4">TCP-IP</a></li>
+							</ul>
+						</li>
+						<li><a href="FormingtheInternet.html">Forming the Internet</a>
+							<ul>
+							<li><a href="FormingtheInternet.html#tabs-1">Tim Berners-Lee & W3C</a></li>
+							<li><a href="FormingtheInternet.html#tabs-2">XHTML</a></li>
+							</ul>
+						</li>
+						<li><a href="Browsers.html">Browsers</a>
+							<ul>
+							<li><a href="Browsers.html#tabs-1">About Browsers</a></li>
+							<li><a href="Browsers.html#tabs-2">Browser Wars</a></li>
+							</ul>
+						</li>
+						<li><a href="Dot-ComBoomBubble.html">Dot-Com Boom & Bubble</a></li>
+						<li><a href="TheInternetofToday.html">The Internet of Today</a>
+							<ul>
+							<li><a href="TheInternetofToday.html#tabs-1">Web2.0</a></li>
+							<li><a href="TheInternetofToday.html#tabs-2">Moblie Web</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col">
+					<div class="shift">
+					<a href="imgs/ARPANET.png"><img src='imgs/ARPANET.png' width = "370" height = "280"/></a>
+					</div>
+				</div>
+			</div>
+		
+			<div class="row2">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">DARPA</a></li>
+						<li><a href="#tabs-2">The Start Of ARPANET</a></li>
+						<li><a href="#tabs-3">ARPANET Goes Live</a></li>
+						<li><a href="#tabs-4">TCP-IP</a></li>
+					</ul>
+					<div id="tabs-1">
+						<p>DARPA stands for the Defense Advanced Research Projects Agency which is part of the United States Department of Defense.  This department (known as ARPA before the name change in March 1972) was created in 1958 by president Dwight D. Eisenhower for the purpose of researching and developing projects to expand the frontiers of technology and science and also became responsible for the development of new technologies to be used by the military.  
+						Thanks to the Soviets who had launched Sputnik 1 in 1957, DARPA mission was to ensure U.S. military technology be more sophisticated than that of the nation's potential enemies.  DARPA’s creed states that it “was to prevent technological surprise like the launch of Sputnik, which signaled that the Soviets had beaten the U.S. into space. The mission statement has evolved over time. Today, DARPA’s mission is still to prevent technological surprise to the US, but also to create technological surprise for our enemies.”</p>
+						<p>DARPA ended up doing very well seeing as they were responsible having major effect on computer networking and NLS.</p>
+						<p>After ARPA had finished its mission and released its technological knowledge to the world, they were then renamed "ARPA" again in February 1993.  However they were then renamed "DARPA" again in March 1996 to continue military research.</p>
+						<p>As of now, DARPA is independent from the conventional military research and development.</p>
+					</div>
+					<div id="tabs-2">
+						<p>The ARPANET (Advanced Research Projects Agency Network) was named after ARPA (later DARPA) where the idea had been first developed.  ARPANET was the world's first operational packet switching network as well as the first network to implement TCP/IP.  The ARPANET would not be possible without its packet switching process first suggested by Leonard Kleinrock.  Leonard Kleinrock ended up leaving DARPA before he could see his theory in practice.  Before he left though, he convinced his successors Ivan Sutherland, Bob Taylor, Lawrence G. Roberts, of the importance of his packet switching networking concept.</p>
+						<p>Before packet switching, both voice and data communications had been based on the idea of a circuit switching, like the traditional telephone circuit, where each telephone call is allocated one end to end connection which was temporary.  Before they could begin forming ARPANET, they had to figure out how to make the computers talk to one another. In 1965, to explore this, Roberts working with Thomas Merrill connected a TX-2 computer in Massachusetts to a Q-32 computer in California through a low speed dial-up telephone line (circuit switching) creating the first wide-area computer network ever built.  What they found from this experiment was that the time-shared computers could work well together, running programs and retrieving data as necessary on the remote machine.  However, they also concluded that the circuit switched telephone system was absolutely inadequate for communication as Kleinrock had predicted and thus confirmed his theory for packet switching.</p>
+						<p>Lawrence G. Roberts taking Kleinrock suggestion seriously began developing a network based on packet switching and in 1967 Roberts presented his paper on ARPANET at a conference.  While there, he found out that there were other papers on a packet network concept from the UK by Donald Davies and Roger Scantlebury of NPL, Paul Baran and others at RAND group.   It happened that the work at MIT (1961-1967), at RAND (1962-1965), and at NPL (1964-1967) had all happened without any of the researchers knowing about the others work.  With so many different network methods it was important for them to find something to unify their work.  Robert E. Kahn of DARPA and ARPANET along with Vinton Cerf of Stanford University worked out a process where the differences between network protocols were hidden by using a common internetwork protocol, and instead of the network being responsible for reliability the hosts became responsible.</p>
+						<p>In 1968, after Roberts and DARPA had refined the overall structure and specifications for the ARPANET, they gave BBN Technologies a contract to build the network.   The BBN proposed a network make up of small computers called Interface Message Processors (IMPs), that would functioned as gateways (today called routers) interconnecting local resources. At each site, the IMPs performed store-and-forward packet switching functions.  The host computers were connected to the IMPs via custom serial communication interfaces which included the hardware and the packet switching software.  These IMPs could support up to four local hosts, and could communicate with up to six remote IMPs via leased lines.</p>
+					</div>
+					<div id="tabs-3">
+						<p>In September of 1969, the ARPANET went live.  A connection was made between computers at The University of California Los Angeles (UCLA) and The Stanford Research Institute (SRI) creating the first ARPANET link.  These two computers would thus become the first and second nodes on the ARPANET.  On October 29, 1969 the first host-to-host message was sent from UCLA to SRI.</p>
+						<p>Two more nodes were added at UC Santa Barbara and University of Utah. These last two nodes incorporated application visualization projects, with Glen Culler and Burton Fried at UCSB investigating methods for display of mathematical functions using storage displays to deal with the problem of refresh over the net, and Robert Taylor and Ivan Sutherland at Utah investigating methods of 3-D representations over the net. Thus, by the end of 1969, four host computers were connected together into the initial ARPANET, and the Internet was officially off the ground.  Over the next several years, nodes are continuously added to the ARPANET.</p>
+						<p>In October 1972, Kahn exhibited the ARPANET at the International Computer Communication Conference (ICCC).  This was the first public demonstration of this new network technology to the public.  Along with its first public appearance, the initial "hot" application, electronic mail, was introduced.  In March Ray Tomlinson at BBN wrote the basic email message send and read software, motivated by the need of the ARPANET developers for an easy coordination mechanism. In July, Roberts expanded its utility by writing the first email utility program to list, selectively read, file, forward, and respond to messages. From there email took off as the largest network application for over a decade. This was a harbinger of the kind of activity we see on the World Wide Web today, namely, the enormous growth of all kinds of "people-to-people" traffic.</p>
+						<p>By 1973, thirty institutions were connected to the ARPANET.  However, there were still some problems to work out.  Up until this point, operating system had been working on the NCP protocol since there was really no standard but NCP did not have the ability to address networks (and machines) further downstream than a destination IMP on the ARPANET.   As mention earlier, with so many different networks they needed something to unify their work.  Thus, Kahn and Cerf finally develop a new version of the protocol in 1974 which could meet the needs of an open-architecture network environment. This protocol would eventually be called the Transmission Control Protocol/Internet Protocol (TCP/IP).  In 1975, their new two-network TCP/IP communication was tested between Stanford and University College London (UCL).  Between 1978 and 1983, several other TCP/IP prototypes were developed at multiple research centers but the migration of the ARPANET to TCP/IP protocols was officially and permanently activated in 
+						January 1983.</p>
+					</div>
+					<div id="tabs-4">
+						<p>Prior to ARPANET, operating systems had been working on the NCP protocol since there was really no standard.  However, NCP did not have the ability to address networks (and machines) further downstream than a destination IMP on the ARPANET.   Thus, Robert E. Kahn and Vinton Cerf, the developer of the existing ARPANET Network Control Program (NCP) protocol, developed a new protocol in 1974 which could meet the needs of an open-architecture network environment. This protocol would eventually be called the Transmission Control Protocol/Internet Protocol (TCP/IP).  In 1975, their new two-network TCP/IP communication was tested between Stanford and University College London (UCL).  Between 1978 and 1983, several other TCP/IP prototypes were developed at multiple research centers but the migration of the ARPANET to TCP/IP protocols was officially and permanently activated in January 1983.</p>
+						<p>The Transmission Control Protocol/Internet Protocol (TCP/IP) suite is the set of communications protocols used for the Internet and other similar networks.  It was different from the NCP since network protocols were hidden by using a common internetwork protocol instead of the network being responsible for reliability.  This became the most important feature of TCP/IP because it provides end-to-end connectivity specifying how data should be formatted, addressed, transmitted, routed and received at the destination.  It does this through its four abstraction layers which sort all Internet protocols according to the scope of networking involved from lowest to highest, the lowest being the link layer contains communication technologies for a local network, then the internet layer (IP) connects local networks, thus establishing internetworking, then the transport layer handles host-to-host communication.  Over time four versions were developed: TCP v1, TCP v2, TCP v3 and IP v3, and TCP/IP v4 but the last 
+						protocol is still in use today.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+		<script src="script.js"></script>
+		
+	</body>
+</html>
