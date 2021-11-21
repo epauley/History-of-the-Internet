@@ -1,0 +1,40 @@
+﻿/*style.css*/
+
+body{
+	background-color: #BAF5EE;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	Font-size: 14px;
+}
+
+.container {
+	margin: 1em 3em 3em 3em;
+}
+
+.header {
+	border: 2px solid black;
+	background-color: white;
+	margin: 2em 2em 2em 2em;
+	text-align: center;
+
+}
+
+.col{
+	float:left;
+}
+
+.row2 {
+	clear: both;
+}
+
+.shift{
+	padding-left: 12em;
+}
+	
+
+
+
